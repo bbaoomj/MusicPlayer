@@ -45,7 +45,7 @@ You can also use <code>/splay song name</code> to play a song from Jio Saavn or 
 **/help** Show help for commands
 **/playlist** Shows the playlist.
 
-**Admin Commands**:
+**Admin دايفل**:
 **/skip** [n] ...  Skip current or n where n >= 2.
 **/cplay** Play music from a channel's music files.
 **/yplay** Play music from a youtube playlist.
@@ -76,8 +76,8 @@ You can also use <code>/splay song name</code> to play a song from Jio Saavn or 
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/o604254'),
+        InlineKeyboardButton('🧩 Source', url='https://t.me/o604254'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -95,8 +95,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/o604254'),
+        InlineKeyboardButton('🧩 Source', url='https://t.me/o604254'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
