@@ -1319,8 +1319,8 @@ allcmd = ["play", "player", "splay", f"splay@{U}", f"play@{U}", f"player@{U}"] +
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('⚡️Make Own Bot', url=''),
-            InlineKeyboardButton('🧩 Source Code', url=''),
+            InlineKeyboardButton('⚡️Make Own Bot', url='https://t.me/o604254'),
+            InlineKeyboardButton('🧩 Source Code', url='https://t.me/o604254'),
         ],
         [
             InlineKeyboardButton('How to Make', url=''),
