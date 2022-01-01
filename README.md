@@ -21,7 +21,7 @@ NOTE: Make sure you have started a VoiceChat in your Group before deploying.
 ### Deploy to VPS
 
 ```sh
-git clone https:https://github.com/bbaoomj/MusicPlayer
+git clone https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https:https://github.com/bbaoomj/MusicPlayer
 cd MusicPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
